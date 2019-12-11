@@ -185,7 +185,7 @@ spec:
             - name: configdir
               mountPath: /data/configdb
         - name: install
-          image: 'k8s.gcr.io/mongodb-install:0.6'
+          image: 'unguiculus/mongodb-install:0.6'
           args:
             - --work-dir=/work-dir
           imagePullPolicy: 'IfNotPresent'
