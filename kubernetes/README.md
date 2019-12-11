@@ -5,12 +5,12 @@
 You will need to push your image to a registry. If you have not done so, use the following commands to tag and push the images:
 
 ```
-$ docker image tag gateway 106.15.59.181/ustcck/gateway
-$ docker push 106.15.59.181/ustcck/gateway
-$ docker image tag blog 106.15.59.181/ustcck/blog
-$ docker push 106.15.59.181/ustcck/blog
-$ docker image tag store 106.15.59.181/ustcck/store
-$ docker push 106.15.59.181/ustcck/store
+$ docker image tag gateway ustcck/gateway
+$ docker push ustcck/gateway
+$ docker image tag blog ustcck/blog
+$ docker push ustcck/blog
+$ docker image tag store ustcck/store
+$ docker push ustcck/store
 ```
 
 ## Deployment

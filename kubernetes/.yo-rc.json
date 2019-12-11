@@ -14,7 +14,7 @@
       "zipkin"
     ],
     "serviceDiscoveryType": "eureka",
-    "dockerRepositoryName": "106.15.59.181/ustcck",
+    "dockerRepositoryName": "ustcck",
     "dockerPushCommand": "docker push",
     "kubernetesNamespace": "default",
     "kubernetesServiceType": "NodePort",

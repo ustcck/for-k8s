@@ -34,7 +34,7 @@ spec:
               done
       containers:
         - name: gateway-app
-          image: 106.15.59.181/ustcck/gateway
+          image: ustcck/gateway
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod

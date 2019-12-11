@@ -34,7 +34,7 @@ spec:
               done
       containers:
         - name: store-app
-          image: 106.15.59.181/ustcck/store
+          image: ustcck/store
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod

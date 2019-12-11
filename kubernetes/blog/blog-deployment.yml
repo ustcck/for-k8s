@@ -34,7 +34,7 @@ spec:
               done
       containers:
         - name: blog-app
-          image: 106.15.59.181/ustcck/blog
+          image: ustcck/blog
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod

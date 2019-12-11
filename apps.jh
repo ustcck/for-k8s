@@ -82,7 +82,7 @@ microservice Blog, Post, Tag with blog
 deployment {
   deploymentType kubernetes
   appsFolders [gateway, blog, store]
-  dockerRepositoryName "106.15.59.181/ustcck"
+  dockerRepositoryName "ustcck"
   monitoring elk
   consoleOptions [zipkin]
   kubernetesServiceType NodePort
