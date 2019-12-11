@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.ustcck.store",
+    "packageFolder": "com/ustcck/store",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "elasticsearch",
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "store",
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "serverPort": "8082",
+    "jhipsterVersion": "6.5.1",
+    "buildTool": "maven",
+    "skipUserManagement": true,
+    "clientPackageManager": "npm",
+    "cacheProvider": "hazelcast",
+    "jwtSecretKey": "ODUxZmMwNzYwZDRhNjliYWFjYTMzNzJhYTkzNzY0MDgwMzRiNDg3YzIzNmFjNzFjYzk3ODgwZGFmM2RkYWJjMmE3NjMxZGM3NDZlM2EwMDNlYWQzZThlOGRiMjRiY2Q4NGRiNTFmNWI4YTU1YTBkMWU0ZDcwZWUxNDc1ZDg4OWQ=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": [
+    "Product"
+  ]
+}
